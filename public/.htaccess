@@ -1,0 +1,8 @@
+# Required for deployment to heroku.
+RewriteEngine On
+
+# Let existing files/directories be served directly.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+

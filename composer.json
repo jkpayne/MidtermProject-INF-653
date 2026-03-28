@@ -1,0 +1,16 @@
+{
+  "name": "jkpayne/midterm-project",
+  "description": "Quotes REST API",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pgsql": "*",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

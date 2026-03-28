@@ -4,4 +4,4 @@
 
 Name: Joel Payne
 
-Deployed URL: https://your-project-name.hostname.com/api
+Deployed URL: https://midterm-project-aa3df383b11b.herokuapp.com/api

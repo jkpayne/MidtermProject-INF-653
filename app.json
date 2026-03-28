@@ -1,0 +1,16 @@
+{
+  "name": "Quotes REST API",
+  "description": "PHP OOP REST API with PostgreSQL",
+  "repository": "https://github.com/jkpayne/MidtermProject-INF-653.git",
+  "keywords": ["php", "postgresql", "rest-api"],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
